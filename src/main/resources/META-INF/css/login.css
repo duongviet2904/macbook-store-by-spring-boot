@@ -1,0 +1,141 @@
+body{
+	font-family: "Nunito Sans", sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.login__form{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url("../images/login-bg.jpg");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+.form-box{
+	width: 400px;
+	height: 550px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+.button-box{
+	margin: 40px auto;
+	position: relative;
+	width: 350px;
+	border-radius: 30px;
+	box-shadow: 0px 0px 1px 1px black;
+}
+
+.toggle-btn{
+	padding: 10px 48px;
+	cursor: pointer;
+	border: 0;
+	outline: none;
+	position: relative;
+	background:transparent;
+}
+
+.toggle-btn:focus{
+	outline: none;
+}
+
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 175px;
+	height: 100%;
+	background-color: grey;
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.social-icon{
+	margin: 30px auto;
+	text-align: center;
+}
+
+.social-icon img{
+	width: 30px;
+	margin: 0 12px;
+}
+
+.input-group{
+	top: 200px;
+	position: absolute;
+	width: 300px;
+	transition: .5s;
+}
+
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid black;
+	outline: none;
+	background: transparent;
+}
+
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 40px auto;
+	background-color: grey;
+	outline: none;
+	border-radius: 30px;
+	border: 0;
+	text-decoration: none;
+} 
+
+
+.submit-btn a{
+	text-decoration: none;
+	color: black;
+}
+
+.check-box{
+	margin: 15px 10px 30px 0;
+}
+
+span{
+	position: absolute;
+	bottom: 90px;
+	left: 15px;
+}
+
+.submit-btn:focus{
+	outline: none;
+}
+
+#login{
+	left: 50px;
+}
+
+#register{
+	left: 450px;
+}
+
+.cancel{
+	position: absolute;
+	top: 3px;
+	left: 5px;
+}
+
+.cancel button{
+	border: none;
+	outline: none;
+	background-color: white;
+}
+
+
